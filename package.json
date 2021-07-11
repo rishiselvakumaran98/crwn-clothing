@@ -6,10 +6,17 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "chokidar": "^3.5.2",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^1.1.5",
+    "web-vitals": "^1.0.1",
+    "webpack": "^3.8.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +41,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
+    "react-svg-loader": "^3.0.3"
+  },
+  "main": "App.js",
+  "repository": "git@github.com:rishiselvakumaran98/crwn-clothing.git",
+  "author": "Rishi Selvakumaran <selva053@umn.edu>",
+  "license": "MIT"
 }
